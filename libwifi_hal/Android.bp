@@ -159,7 +159,7 @@ wifi_cc_defaults {
                 whole_static_libs: ["libwifi-hal-syna"],
             },
             qcwcn: {
-                whole_static_libs: ["//device/samsung/msm8226-common:libwifi-hal-qcom"],
+                whole_static_libs: ["libwifi-hal-qcom"],
             },
             mrvl: {
                 // this is commented because none of the nexus devices
